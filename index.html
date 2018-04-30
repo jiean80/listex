@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>list example</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Do+Hyeon|Lora" rel="stylesheet">
+
+
+	<style>
+
+
+	/*font-family: 'Lora', serif;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Do Hyeon', sans-serif;*/
+
+
+		a:link, a:active, a:visited, a:hover{text-decoration: none;}
+		a:link, a:active, a:visited {color:black;}
+		a:hover{color: gray; font-weight: bold;}
+
+		nav{width:1000px; margin:auto; height:44px;}
+		nav #logo{width:250px; height:44px; float:left; font-family: 'Berkshire Swash', cursive; font-size: 2em; margin-top:20px; }
+		nav #logo a{display: block; text-align: center; line-height: 44px;}
+		nav #logo a:hover{color:#8A2BE2;}
+
+		nav #menuList{float:right; margin:0; padding:0; font-family: 'Lora', serif; margin-top:20px; }
+		nav #menuList .main-menu-item{ list-style: none; float:left; width:150px; height: 44px;}
+		nav #menuList a{display: block; height: 44px; text-align: center; line-height: 44px;}
+
+		h1{font-size:4em; position: absolute; letter-spacing: 4px; font-family:'Do Hyeon', sans-serif; color:#8A2BE2;}
+
+
+		#back1 {height:800px; background:white; background-size:100% auto; position: relative; width: 1250px; overflow:hidden;}
+		#back1 #back1-1 {position: absolute; top:200px; left:500px; width:700px;}
+
+		#back1 #back1-1:hover {transform:translate(-25px,-25px)}
+		#back1 #back1-2 {position: absolute; top:20px; left:150px;}
+		#back1 #back1-2:hover {transform:translate(25px,-25px)}
+
+	</style>
+
+
+
+</head>
+	
+<body>
+	<nav>
+		<div id="logo">
+			<a href="index.html">Cat's Meal</a></div>
+		<ul id="menuList">
+			<li class="main-menu-item">
+				<a href="https://m.blog.naver.com/PostView.nhn?blogId=iameunu&logNo=220951163300&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F" target="_black">Holistic</a>
+			</li>
+			<li class="main-menu-item">
+				<a href="http://naver.com" target="_black">Organic</a>
+			</li>
+			<li class="main-menu-item">
+				<a href="http://naver.com" target="_black">Super Premium</a>
+			</li>
+			<li class="main-menu-item">
+				<a href="http://naver.com" target="_black">Premiun</a>
+			</li>
+			<li class="main-menu-item">
+				<a href="http://naver.com" target="_black">Grocery Brand</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div id="back1">
+		<img id="back1-1" src="./img/maincat.jpg">
+		<h1 id="back1-2">고양이 사료를 소개하는<br>홈페이지를 제작할<br>예정입니다.</h1>
+	</div>
+
+</body>
+</html>
